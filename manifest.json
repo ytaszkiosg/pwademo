@@ -1,0 +1,20 @@
+{
+  "name": "pwa-demo",
+  "short_name": "pdemo",
+  "start_url": "./?utm_source=homescreen",
+  "background_color": "#eee",
+  "theme_color": "#fff",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "images/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
