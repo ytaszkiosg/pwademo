@@ -6,12 +6,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#fff">
   <title>PWA</title>
+  <link rel="stylesheet" href="./css/reset.css">
   <link rel="stylesheet" href="./css/common.css">
   <link rel="manifest" href="./manifest.json">
   <link rel="apple-touch-icon" href="images/logo-192.png">
   <script src="./index.js"></script>
 </head>
 <body>
-  <h1></h1>
+  <header>
+    <h1 class="title">WPFDEMO</h1>
+  </header>
+  <main>
+    <div class="login-form-container">
+      <form class="login-form">
+        <input type="text" placeholder="Name" name="name" value="">
+        <input type="password" placeholder="Password" name="user_password" value="">
+      </form>
+      <button class="login-form-btn" id="loginFormBtn">Login</button>
+    </div>
+  </main>
+  <footer></footer>
 </body>
 </html>
